@@ -4,7 +4,7 @@ import React,{useEffect,useState} from "react";
 
 // import NameComp from "./assets/components/NameComp";
 // import Cart from "./assets/components/Cart";
-// import ProductShow from './assets/components/ProductShow';
+import ProductShow from './assets/components/ProductShow';
 
 // import ProductDetails from './assets/components/ProductDetails';
 // import ProductList from './assets/components/ProductList';
@@ -13,7 +13,7 @@ import React,{useEffect,useState} from "react";
 
 // import HookOne from './assets/components/HookOne';
 // import HomeComp from './assets/components/HomeComp';
-import FormOne from'./assets/components/FormOne';
+// import FormOne from'./assets/components/FormOne';
 // import Home from'./assets/components/Home';
 // import Product from'./assets/components/Product';
 // import About from'./assets/components/About';
@@ -50,7 +50,7 @@ function App(){
   return ( 
     <div>
        {/* <ProductList/> */}
-              {/* <ProductShow/> */}
+              <ProductShow/>
               {/* <Cart/> */}
 
       
@@ -58,7 +58,7 @@ function App(){
 
       {/* <FormTwo/> */}
     
-<FormOne/> 
+{/* <FormOne/>  */}
 
     {/* <HookTwo/> */}
       {/* <NameComp/> */}
