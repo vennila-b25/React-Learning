@@ -13,14 +13,14 @@ import React,{useEffect,useState} from "react";
 
 // import HookOne from './assets/components/HookOne';
 // import HomeComp from './assets/components/HomeComp';
-// import FormOne from'./assets/components/FormOne';
+import FormOne from'./assets/components/FormOne';
 // import Home from'./assets/components/Home';
 // import Product from'./assets/components/Product';
 // import About from'./assets/components/About';
 
 // import {BrowserRouter,Routes,Route,Link} from 'react-router-dom'
 // import FormTwo from './assets/components/FormTwo';
-import TodoList from './assets/components/TodoList';
+// import TodoList from './assets/components/TodoList';
 function App(){
 
 
@@ -54,11 +54,11 @@ function App(){
               {/* <Cart/> */}
 
       
-      <TodoList/>
+      {/* <TodoList/> */}
 
       {/* <FormTwo/> */}
     
-{/* <FormOne/>  */}
+<FormOne/> 
 
     {/* <HookTwo/> */}
       {/* <NameComp/> */}

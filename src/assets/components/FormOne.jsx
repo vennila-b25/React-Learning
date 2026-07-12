@@ -1,16 +1,15 @@
 import React ,{useState} from 'react';
-import { useForm } from "react-hook-form";
+let count=0
 
 
 function FormOne () {
+  count=count+1;
+  console.log(count);
     const[name,setname]=useState("")
     const[age,setage]=useState(0)
     const[ishide,setishide]=useState(false)
 
-     const { register, handleSubmit } = useForm();
-
-
-    const handlename=(e)=>{
+     const handlename=(e)=>{
         setname(e.target.value)
     }
     const handleage=(event)=>{
