@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background:black;
+}
+
+.container {
+  
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 20px;
+  padding: 20px;
+  box-sizing:border-box;
+}
+
+.card {
+  width: 100%;
+    margin: 20px auto;
+  background: white;
+  border-radius: 8px;
+  padding: 5px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+    background:rgb(55, 50, 50);
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+}
+
+.card h2 {
+  font-size: 18px;
+  height: 50px;
+}
+
+.card h4 {
+  color:black;
+}
+
+
+
+.card button {
+  background:green;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
