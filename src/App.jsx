@@ -4,9 +4,9 @@ import React,{useEffect,useState} from "react";
 
 // import NameComp from "./assets/components/NameComp";
 // import Cart from "./assets/components/Cart";
-import ProductShow from './assets/components/ProductShow';
+// import ProductShow from './assets/components/ProductShow';
 
-// import ProductDetails from './assets/components/ProductDetails';
+import ProductDetails from './assets/components/ProductDetails';
 // import ProductList from './assets/components/ProductList';
 
 // import HookTwo from './assets/components/HookTwo';
@@ -50,7 +50,7 @@ function App(){
   return ( 
     <div>
        {/* <ProductList/> */}
-              <ProductShow/>
+              {/* <ProductShow/> */}
               {/* <Cart/> */}
 
       
@@ -63,7 +63,7 @@ function App(){
     {/* <HookTwo/> */}
       {/* <NameComp/> */}
       {/* <Counter/> */}
-    {/* <ProductDetails/> */}
+    <ProductDetails/>
 
 
 </div>

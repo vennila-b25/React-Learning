@@ -1,11 +1,12 @@
 import React,{ useState} from 'react';
 import "./ProductDetails.css";
 
+
 function ProductDetails(){
     const[product,setproduct]= useState({});
 
     const handlefetch=async()=>{
-        const res=await fetch("https://fakestoreapi.com/products/12")
+        const res=await fetch("https://fakestoreapi.com/products/13")
         const data=await res.json()
         setproduct(data);
     }
